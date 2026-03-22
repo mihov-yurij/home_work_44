@@ -1,14 +1,14 @@
 import { createContext, useState } from 'react'
 
 
-// создаём контекст
 
 
+
 // создаём контекст
-export const AppContext = createContext({
+ const AppContext = createContext({
   users: [],
   selectedUser: null,
-  setSelectedUser: () => { }
+  setSelectedUser: () => {}
 })
 
 // провайдер
